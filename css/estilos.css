@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+:root{
+    --coffee-color:#B56A4B;
+    --babyblue-color:#BFE4FF;
+    --light-color: #F1DAF2;
+    --pink-color:#FFC0BF;
+    --lilac-color:#E1B1E0;
+    --dark-color: #191919;
+    --title-color:#CC6A90;
+}
+
+body{
+    background-color: var(--light-color);
+    align-items: center;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Mulish' sans-serif;
+    font-weight: 600;
+    color: var(--coffee-color);
+    text-shadow: 1px 1px 1px var(--lilac-color);
+    margin: 3px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+}
+
+header img{
+    width: 80%;
+    height: 150px;
+    margin: 5px;
+}
+
+.bpro{
+    background-color:var(--title-color);
+    border-radius: 15px;
+    border-color: var(--title-color);
+    font-weight: bold;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    border-style: solid;
+    box-shadow: 2px 2px 3px var(--dark-color);
+    font-size: 30px;
+    margin: auto 50px;
+    color: azure;
+    text-shadow: 2px 2px 2px var(--dark-color);
+}
+
+.bcap{
+    background-color:var(--title-color);
+    border-radius: 15px;
+    border-color: var(--title-color);
+    font-weight: bold;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    border-style: solid;
+    box-shadow: 2px 2px 3px var(--dark-color);
+    font-size: 30px;
+    margin: auto 50px;
+    color: azure;
+    text-shadow: 2px 2px 2px var(--dark-color);
+}
+.bcap a, .bpro a{
+    color: azure;
+}
+.personajes{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    align-items: center;
+    padding: auto 10rem;
+    margin: 3px;    
+}
+
+.nombre{
+    font-size: 30px;
+    color:var(--title-color);
+    text-shadow: 3px 3px 3px white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cajapersonaje{
+    background-color: var(--babyblue-color);
+    width: 300px;
+    height: 400px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 3px 3px 12px var(--dark-color);
+    align-items: center;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.cpanda{
+    background-color: var(--babyblue-color);
+    color: var(--dark-color);
+    font-family: 'Mulish' sans-serif;
+}
+
+.cajaper{
+    width: 700px;
+}
+
+.fotounopd, .fotodospd{
+    width: 270px;
+    text-align: center;
+    align-items: center;
+    float: left;
+}
+
+.fotounopd img{
+    width: 300px;
+    height: 320px;
+}
+
+.fotodospd img{
+    width: 280px;
+    height: 250px;
+    margin:30px;
+}
+
+.cajaper:hover{
+    transform: translate(-290px);
+    transition: transform 1s ;
+}
+
+.fotounopl{
+    width: 280px;
+    text-align: center;
+    align-items: center;
+    float: left;
+    margin: auto 20px;
+}
+
+.fotodospl{
+    width: 280px;
+    text-align: center;
+    align-items: center;
+    float: left;
+}
+
+.fotounopl img{
+    width: 200px;
+    height: 320px;
+}
+
+.fotodospl img{
+    width: 200px;
+    height: 320px;
+}
+
+.fotounopo, .fotodospo{
+    width: 270px;
+    text-align: center;
+    align-items: center;
+    float: left;
+    margin:auto 10px 0px;
+}
+
+.fotounopo img{
+    width: 200px;
+    height: 320px;
+}
+
+.fotodospo img{
+    width: 280px;
+    height: 250px;
+}
+/*Estilos panda*/
+.bodypanda{
+    background-image: url(../img/Frame\ 6.png);
+}
+.cajapanda{
+    width: 70rem;
+    height: 30rem;
+    margin: 10px auto;    
+}
+.cont1{
+    height: 100px;
+    align-items: center;
+    font-size: 80px;
+}
+.tcajap{
+    padding: 0px;
+    margin: 10px;
+    color: azure;
+    text-shadow: 3px 3px 3px var(--dark-color);
+}
+.cont2{
+    display: flex;
+    flex: row;
+
+    align-items:flex-start;
+    margin: auto 50px;
+}
+
+.galpanda{
+    width: 340px;
+    height:400px;
+    margin: 50px;
+    overflow: hidden;
+}
+
+.cont3{
+    width: 700px;
+}
+
+.funo, .fdos{
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    float: left;
+    margin: 30px;
+}
+
+.funo img{
+    height: 300px;
+}
+
+.fdos img{
+    width: 300px;
+}
+
+.cont3:hover{
+    transform: translate(-300px);
+    transition: transform 1s ;
+}
+.parrcaja{
+    width: 550px;
+    text-align: justify;
+    font-family: 'Mulish';
+    font-size: 20px;
+    padding: 70px 10px;
+}
+/*Estilos polar*/
+.bodypolar{
+    background-image: url(../img/Frame\ 8.png);
+}
+
+.tcajapolar{
+    padding: 0px;
+    margin: 10px;
+    color: azure;
+    text-shadow: 3px 3px 3px var(--babyblue-color);
+}
+
+.parrcajapl{
+    width: 550px;
+    text-align: justify;
+    font-family: 'Mulish';
+    font-size: 20px;
+    padding: 90px 10px;
+}
+
+.funopl, .fdospl{
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    float: left;
+    margin: 30px;
+}
+
+.funopl img{
+    width: 270px;
+}
+
+.fdospl img{
+    width: 250px;
+    padding: 10px;
+}
+
+/*Estilos pardo*/
+.bodypardo{
+    background-image: url(../img/Frame\ 7.png);
+}
+
+.tcajapardo{
+    padding: 0px;
+    margin: 10px;
+    color: azure;
+    text-shadow: 3px 
+    3px 3px var(--coffee-color);
+}
+
+.parrcajas{
+    width: 550px;
+    text-align: justify;
+    font-family: 'Mulish';
+    font-size: 20px;
+    padding: 90px 10px;
+}
+
+.funopo, .fdospo{
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    float: left;
+    margin: 30px;
+}
+
+.funopo img{
+    width: 180px;
+}
+
+.fdospo img{
+    width: 180px;
+}
+
+/*capitulos*/
+.lista{
+    width:50rem ;
+    margin: auto;
+    padding: 10px;
+}
+
+.lista li{
+    font-family: 'Mulish';
+    font-size: 30px;
+}
+
+.lista ul{
+    list-style-image:url(../img/pngwing.com\ \(1\)\ -\ copia.png)
+}
+
+h2{
+    font-family: 'Mulish' sans-serif;
+    font-weight: 600;
+    color: var(--coffee-color);
+    text-shadow: 1px 1px 1px var(--lilac-color);
+    margin: 3px;
+}
+
+.h2cap{
+    font-family: 'Mulish' sans-serif;
+    font-weight: 600;
+    color: var(--coffee-color);
+    text-shadow: 4px 4px 4px var(--lilac-color);
+    margin: 3px;
+    font-size: 40px;
+}
+
+.formu{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.npt{
+    width: 20%;
+    height: 43px;
+    background-color:var(--pink-color);
+    box-sizing:border-box;
+    margin-top: 10px;
+}
+
+.lbl{
+    width: 70%;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16pt;
+    text-align: center;
+    padding: 5px 3px; 
+    font-size: 16pt;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+#boton2{
+    width: 128;
+    height: 34;
+    font-family: 'Mulish', sans-serif;
+    background-color: var(--pink-color);
+    border-radius: 9px;
+    color:var(--dark-color);
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 35px ;
+    font-size: 20px;
+
+    } 
+
+.span{
+    font-weight: 400;
+    font-size:20px;
+    cursor: pointer;
+    text-decoration:none;
+}
